@@ -7,16 +7,16 @@
 
   var numeroUtente= Math.floor(Math.random()*6) +1;
   var numeroPc=Math.floor(Math.random()*6) +1;
-  var pareggio;
+  var risultato;
 
   if (numeroUtente>numeroPc){
-    var numeroUtente='hai vinto!';
+    risultato='hai vinto!';
   }
   else if (numeroPc>numeroUtente){
-    var numeroPc='hai perso!';
+    risultato='hai perso!';
   }
-  else(numeroUtente==numeroPc){
-    var pareggio='Pareggio';
+  else{
+    risultato='Pareggio';
   }
 
-  document.getElementById('Genera').innerHTML='';
+  document.getElementById('Genera').innerHTML='risultato';
