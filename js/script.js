@@ -19,4 +19,4 @@
     risultato='Pareggio';
   }
 
-  document.getElementById('Genera').innerHTML='risultato';
+  document.getElementById('Genera').innerHTML=risultato;
